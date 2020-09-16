@@ -1,11 +1,9 @@
 dist: focal
 language: bash
 sudo: required
-
-arch:
-    - amd64
-    - arm64
-    - arm64-graviton2
+group: edge
+arch: arm64-graviton2
+virt: vm  
 
 addons:
   snaps:
